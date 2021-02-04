@@ -27,3 +27,7 @@
     padding: 1rem;
     height: 2.25rem;
 }
+
+@media screen and (max-width: 600px) {
+    .todo-list {margin: 100px 5px;}
+}

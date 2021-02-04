@@ -19,7 +19,7 @@ class AddStudent extends Component {
     render () {
         return (
             <Aux className="AddStudent">
-                <div className="col-sm-8 col-7 col-md-6 col-lg-6 mt-2">
+                <div className="col-sm-8 col-12 col-md-6 col-lg-6 mt-2">
                     <input 
                         className="form-control"
                         type="text" 
@@ -27,7 +27,7 @@ class AddStudent extends Component {
                         onChange={this.nameChangedHandler}
                         value={this.state.name} />
                 </div>
-                <div className="col-sm-8 col-7 col-md-6 col-lg-6 mt-2">
+                <div className="col-sm-8 col-12 col-md-6 col-lg-6 mt-2">
                     <input
                         className="form-control" 
                         type="text" 
